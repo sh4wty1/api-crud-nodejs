@@ -2,14 +2,14 @@ POST http://localhost:3333/videos
 Content-type: application/json
 
 {
-  "title": "My sex video",
+  "title": "My first video",
   "description": "This is my first video upload",
   "duration": 120
 }
 
 ###
 
-GET http://localhost:3333/videos?search=broski
+GET http://localhost:3333/videos?search=test
 
 ###
 
@@ -17,7 +17,7 @@ PUT http://localhost:3333/videos/f9d0f3fc-a42a-4c5d-ae9f-97f7d7e2a178
 Content-type: application/json
 
 {
-  "title": "broskivideo",
+  "title": "TEST TEST",
   "description": "This is my first video upload",
   "duration": 120
 }
